@@ -21,7 +21,7 @@ body, h1, input, select, button {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.952);
   }
   
   .logo {
@@ -48,7 +48,7 @@ body, h1, input, select, button {
   }
   
   .tab {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(11, 10, 10, 0.642);
     color: white;
     border: none;
     padding: 10px 20px;
