@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const hotelsTab = document.getElementById("hotels-tab");
     const trainsTab = document.getElementById("trains-tab");
     const searchTab = document.getElementById("search-option")
+    const cruiseTab = document.getElementById("cruise-tab");
 
     function resetTabs() {
       document.querySelectorAll(".tab").forEach((tab) => tab.classList.remove("active"));
@@ -23,6 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
     trainsTab.addEventListener("click", function () {
       resetTabs();
       alert("Trains option is currently under development!");
+    });
+
+    cruiseTab.addEventListener("click", function () {
+      resetTabs();
+      alert("Sorryyy.....cruise option is currently under development!");
     });
 
     searchTab.addEventListener("click", function () {
