@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Search</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <header class="hero-section">
+    <nav class="navbar">
+      <div class="logo">Travel.com</div>
+    </nav>
+    <div class="search-container">
+      <h1>Discover the real value of travel</h1>
+      <div class="tabs">
+        <a href="book.html"><button class="tab active" id="flights-tab">Flights</button></a>
+        <button class="tab" id="hotels-tab">Hotels</button>
+        <button class="tab" id="trains-tab">Trains</button>
+      </div>
+      <div class="search-box">
+        <div class="trip-options">
+          <label><input type="radio" name="trip-type" value="One-way" checked> One-way</label>
+          <label><input type="radio" name="trip-type" value="round-trip"> Round-trip</label>
+        </div>
+        <form>
+          <div class="input-fields">
+            <input type="text" id="departure" name="departure" placeholder="From" required>
+            <input type="text" id="destination" name="destination" placeholder="To" required>
+            <input type="date" id="date" name="date" placeholder="Departure" required>
+          </div>
+          <div class="additional-options">
+            <select>
+                <option>1 Adult</option>
+                <option>2 Adults</option>
+                <option>3 Adults</option>
+            </select>
+            <select>
+              <option>Economy</option>
+              <option>Business</option>
+              <option>First Class</option>
+            </select>
+            <label>
+              <input type="checkbox"> Direct flight only
+            </label>
+          </div>
+          <button type="submit" class="search-btn" id="search-option">Search</button>
+        </form>
+        <div id="results"></div>
+      </div>
+    </div>
+  </header>
+  <script src="book.js"></script>
+</body>
+</html>
